@@ -55,7 +55,7 @@ services:
   #   networks:
   #     - cdp-tenant
 
-  cdp-node-backend-template:
+  laps-api-mock-bank-details:
     build:
       context: .
       target: development
