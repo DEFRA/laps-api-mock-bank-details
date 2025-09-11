@@ -1,4 +1,3 @@
-// import { getBankDetails } from '../handler/bankDetails/get.js'
 import { getFilesListByLocalAuthority } from '../handler/file/getFilesListByLocalAuthority.js'
 import { getFileById } from '../handler/file/getFileById.js'
 
