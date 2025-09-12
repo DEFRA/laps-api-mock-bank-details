@@ -1,4 +1,6 @@
 import Hapi from '@hapi/hapi'
+import Boom from '@hapi/boom'
+import Inert from '@hapi/inert'
 import { secureContext } from '@defra/hapi-secure-context'
 
 import { config } from './config.js'
@@ -36,6 +38,30 @@ async function createServer() {
       stripTrailingSlash: true
     }
   })
+
+  // Register a custom auth scheme
+  server.auth.scheme('api-key', () => {
+    return {
+      authenticate: async (request, h) => {
+        const apiKey = request.headers['x-api-key']
+        const validApiKeys = ['some-api-key']
+
+        if (!apiKey || !validApiKeys.includes(apiKey)) {
+          throw Boom.unauthorized('Invalid API Key')
+        }
+
+        // credentials object gets attached to request.auth
+        return h.authenticated({
+          credentials: { apiKey, user: 'API User' }
+        })
+      }
+    }
+  })
+
+  server.auth.strategy('default', 'api-key')
+  server.auth.default('default')
+
+  await server.register(Inert)
 
   // Hapi Plugins:
   // requestLogger  - automatically logs incoming requests
