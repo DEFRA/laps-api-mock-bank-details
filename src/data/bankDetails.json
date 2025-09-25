@@ -1,0 +1,74 @@
+{
+  "Manchester City Council": {
+    "id": "1234-xyz-12345-uvw",
+    "accountNumber": "123456789",
+    "accountName": "Manchester LA",
+    "sortCode": "99-12-56",
+    "confirmed": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  "Devon County Council": {
+    "id": "56781-xyz-12345-uvw",
+    "accountNumber": "123456789",
+    "accountName": "Devon County Account",
+    "sortCode": "22-34-56",
+    "confirmed": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  "Hertfordshire County Council": {
+    "id": "14921-xyz-12345-uvw",
+    "accountNumber": "123456789",
+    "accountName": "Hertfordshire LA",
+    "sortCode": "66-14-06",
+    "confirmed": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  "West Sussex County Council": {
+    "id": "9876-xyz-12345-uvw",
+    "accountNumber": "123456789",
+    "accountName": "West Sussex LA",
+    "sortCode": "12-34-56",
+    "confirmed": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  "Norfolk County Council": {
+    "id": "09618-xyz-12345-uvw",
+    "accountNumber": "123456789",
+    "accountName": "Norfolk LA",
+    "sortCode": "12-85-56",
+    "confirmed": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  "Warwickshire County Council": {
+    "id": "71537-xyz-12345-uvw",
+    "accountNumber": "123456789",
+    "accountName": "Warwicshire LA",
+    "sortCode": "12-35-56",
+    "confirmed": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  "Birmingham City Council": {
+    "id": "91931-xyz-12345-uvw",
+    "accountNumber": "123456789",
+    "accountName": "Brimigham LA",
+    "sortCode": "12-09-56",
+    "confirmed": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  "Bristol City Council": {
+    "id": "09865-xyz-12345-uvw",
+    "accountNumber": "123456789",
+    "accountName": "Bristil LA",
+    "sortCode": "98-34-41",
+    "confirmed": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  }
+}
