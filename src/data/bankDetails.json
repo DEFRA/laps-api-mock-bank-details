@@ -31,7 +31,7 @@
     "accountNumber": "36487125",
     "accountName": "West Sussex LA",
     "sortCode": "12-34-56",
-    "confirmed": true,
+    "confirmed": false,
     "createdAt": "2024-01-01T00:00:00.000Z",
     "updatedAt": "2024-01-01T00:00:00.000Z"
   },
