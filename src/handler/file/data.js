@@ -26,7 +26,7 @@ export const documents = [
     financialYear: '2025',
     quarter: 'Q4',
     creationDate: '2025-01-01T00:00:00.000Z',
-    documentType: 'remittance ',
+    documentType: 'remittance',
     language: 'EN'
   },
   {
@@ -56,7 +56,7 @@ export const documents = [
     financialYear: '2025',
     quarter: 'Q3',
     creationDate: '2025-11-01T00:00:00.000Z',
-    documentType: 'remittance ',
+    documentType: 'remittance',
     language: 'EN'
   },
   {
@@ -66,7 +66,7 @@ export const documents = [
     financialYear: '2026',
     quarter: 'Q4',
     creationDate: '2026-02-01T00:00:00.000Z',
-    documentType: 'remittance ',
+    documentType: 'remittance',
     language: 'EN'
   }
 ]
