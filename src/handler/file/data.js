@@ -94,7 +94,7 @@ export const documents = [
     fileName: 'notice-of-assessment_cy.pdf',
     localAuthority: 'Newcastle City Council',
     financialYear: '2025',
-    quarter: 'Q2',
+    quarter: '',
     creationDate: '2024-07-27T00:00:00.000Z',
     documentType: 'notice_of_assessment',
     language: 'CY'
