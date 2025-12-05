@@ -43,10 +43,9 @@ async function createServer() {
   server.auth.scheme('api-key', () => {
     return {
       authenticate: async (request, h) => {
-        const apiKey = request.headers['x-api-key']
-        const validApiKeys = ['some-api-key']
+        const apiKey = request.headers['x-sn-apikey']
 
-        if (!apiKey || !validApiKeys.includes(apiKey)) {
+        if (!apiKey) {
           throw Boom.unauthorized('Invalid API Key')
         }
 
