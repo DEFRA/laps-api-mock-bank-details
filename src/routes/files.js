@@ -4,12 +4,12 @@ import { getFileById } from '../handler/file/getFileById.js'
 const files = [
   {
     method: 'GET',
-    path: '/file/metadata/{localAuthority}',
+    path: '/api/sn_gsm/laps_documents/{localAuthority}',
     handler: (request, h) => getFilesListByLocalAuthority(request, h)
   },
   {
     method: 'GET',
-    path: '/file/{id}',
+    path: '/api/now/attachment/{id}/file',
     handler: (request, h) => getFileById(request, h)
   }
 ]
