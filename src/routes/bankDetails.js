@@ -5,17 +5,17 @@ import { createBankDetails } from '../handler/bankDetails/create-bank-details.js
 const bankDetails = [
   {
     method: ['GET'],
-    path: '/bank-details/{localAuthority}',
+    path: '/api/sn_gsm/bank_details/{localAuthority}',
     handler: (request, h) => getBankDetails(request, h)
   },
   {
     method: ['PUT'],
-    path: '/bank-details/{localAuthority}',
+    path: '/api/sn_gsm/bank_details/{localAuthority}',
     handler: (request, h) => putBankDetails(request, h)
   },
   {
     method: ['POST'],
-    path: '/bank-details',
+    path: '/api/sn_gsm/bank_details',
     handler: (request, h) => createBankDetails(request, h)
   }
 ]

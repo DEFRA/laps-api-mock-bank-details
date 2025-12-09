@@ -13,7 +13,7 @@ const getFileById = (request, h) => {
 }
 
 function getFileNameById(id) {
-  const doc = documents.find((document) => document.id === id)
+  const doc = documents.find((document) => document.sysId === id)
   return doc ? doc.fileName : null // Returns null if no document found
 }
 

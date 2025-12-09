@@ -19,7 +19,9 @@ const getBankDetails = async (request, h) => {
     return Boom.notFound('No bank details found for that local authority')
   }
 
-  return h.response(response)
+  return h.response({
+    result: response
+  })
 }
 
 export { getBankDetails }

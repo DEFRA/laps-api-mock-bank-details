@@ -9,9 +9,10 @@ const createBankDetails = (request, h) => {
   return h
     .response({
       id: '12345-abcde-67890-fghij',
-      accountNumber: '094785923',
-      accountName: 'Defra Test',
-      sortCode: '09-03-023',
+      accountNumber: payload.accountNumber,
+      accountName: payload.accountName,
+      localAuthority: payload.localAuthority,
+      sortCode: payload.sortCode,
       confirmed: false,
       createdAt: new Date(),
       updatedAt: new Date()
