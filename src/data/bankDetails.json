@@ -115,7 +115,7 @@
     "accountNumber": "77412698",
     "accountName": "Caerphilly County LA",
     "sortCode": "77-03-96",
-    "confirmed": false,
+    "confirmed": true,
     "createdAt": "2024-01-01T00:00:00.000Z",
     "updatedAt": "2024-01-01T00:00:00.000Z"
   }
