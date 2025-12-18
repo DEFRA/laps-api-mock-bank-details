@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.28.5",
-    "@babel/preset-env": "7.27.2",
+    "@babel/preset-env": "7.28.5",
     "@vitest/coverage-v8": "4.0.15",
     "autoprefixer": "10.4.22",
     "eslint": "9.29.0",
