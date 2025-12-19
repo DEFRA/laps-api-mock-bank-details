@@ -119,7 +119,7 @@
     "createdAt": "2024-01-01T00:00:00.000Z",
     "updatedAt": "2024-01-01T00:00:00.000Z"
   },
-  "Pembrokeshire council": {
+  "Pembrokeshire County Council": {
     "sysId": "4567-1231-5672-uvw",
     "jpp": "219",
     "accountNumber": "77412698",
@@ -349,11 +349,71 @@
     "createdAt": "2024-01-01T00:00:00.000Z",
     "updatedAt": "2024-01-01T00:00:00.000Z"
   },
-  "Swansea council": {
+  "City and County of Swansea": {
     "sysId": "4567-1231-5672-uvw",
     "jpp": "219",
     "accountNumber": "77412698",
     "accountName": "Swansea Council LA",
+    "sortCode": "77-03-96",
+    "confirmed": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  "Carmarthenshire County Council": {
+    "sysId": "4567-1231-5672-uvw",
+    "jpp": "219",
+    "accountNumber": "77412698",
+    "accountName": "Carmarthenshire Council LA",
+    "sortCode": "77-03-96",
+    "confirmed": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  "Flintshire County": {
+    "sysId": "4567-1231-5672-uvw",
+    "jpp": "219",
+    "accountNumber": "77412698",
+    "accountName": "Flintshire Council LA",
+    "sortCode": "77-03-96",
+    "confirmed": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  "Monmouthshire County Council": {
+    "sysId": "4567-1231-5672-uvw",
+    "jpp": "219",
+    "accountNumber": "77412698",
+    "accountName": "Monmouthshire Council LA",
+    "sortCode": "77-03-96",
+    "confirmed": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  "Newport City Council": {
+    "sysId": "4567-1231-5672-uvw",
+    "jpp": "219",
+    "accountNumber": "77412698",
+    "accountName": "Newport Council LA",
+    "sortCode": "77-03-96",
+    "confirmed": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  "Torfaen County Borough Council": {
+    "sysId": "4567-1231-5672-uvw",
+    "jpp": "219",
+    "accountNumber": "77412698",
+    "accountName": "Torfaen Council LA",
+    "sortCode": "77-03-96",
+    "confirmed": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z"
+  },
+  "Rhondda Cynon Taf County Borough Council": {
+    "sysId": "4567-1231-5672-uvw",
+    "jpp": "219",
+    "accountNumber": "77412698",
+    "accountName": "Rhondda Cynon Taf Council LA",
     "sortCode": "77-03-96",
     "confirmed": true,
     "createdAt": "2024-01-01T00:00:00.000Z",
