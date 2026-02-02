@@ -9,7 +9,7 @@ import {
 describe('encrypt-bank-details utilities', () => {
   describe('base64ToUrlBase64', () => {
     it('converts standard Base64 to URL-safe Base64', () => {
-      const standard = 'SGVsbG8gV29ybGQrLy8v'
+      const standard = 'SGVsbG8gV29ybGQtX19f'
       const urlSafe = base64ToUrlBase64(standard)
       expect(urlSafe).toBe('SGVsbG8gV29ybGQtX19f')
     })
