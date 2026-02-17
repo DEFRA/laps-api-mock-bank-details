@@ -93,6 +93,12 @@ const config = convict({
       default: 'x-cdp-request-id',
       env: 'TRACING_HEADER'
     }
+  },
+  fssEncryptionKey: {
+    doc: 'Base64-encoded encryption key for bank details response',
+    format: String,
+    default: '',
+    env: 'FSS_ENCRYPTION_KEY'
   }
 })
 
