@@ -1,5 +1,4 @@
 import { ProxyAgent, setGlobalDispatcher } from 'undici'
-import { bootstrap } from 'global-agent'
 
 import { createLogger } from '../logging/logger.js'
 import { config } from '../../../config.js'
@@ -17,11 +16,12 @@ export function setupProxy() {
   if (proxyUrl) {
     logger.info('setting up global proxies')
 
-    // Undici proxy
+    // Undici proxy (Node.js fetch)
     setGlobalDispatcher(new ProxyAgent(proxyUrl))
 
-    // global-agent (axios/request/and others)
-    bootstrap()
-    global.GLOBAL_AGENT.HTTP_PROXY = proxyUrl
+    // global-agent via standard env vars (no import needed)
+    process.env.HTTP_PROXY = proxyUrl
+    process.env.HTTPS_PROXY = proxyUrl
+    process.env.NO_PROXY = 'localhost,127.0.0.1'
   }
 }
